@@ -4,6 +4,7 @@ A collection of data sctructures and algorithm I have been working on in c++, My
 
 
 * Algorithms
+
 hash_map: Inside has_map there is a frequency counter, anagram checker, and first non-repeating character which I build using std::unordered_map.
 my Anagram stores has key value pair and give you instint look up so it's perfect for these algorithms. My anagram count both string through a freqencycounter whcih counts each time a charavter appears.
 then it compares the too map and if every character appears the same number of times in both strings, they're anagrams. For the first nonrepeating character I use the frequency counter to build the frequency map for the string.
