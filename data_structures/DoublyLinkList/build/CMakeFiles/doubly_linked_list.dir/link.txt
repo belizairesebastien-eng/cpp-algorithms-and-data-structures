@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/doubly_linked_list.dir/main.cpp.o CMakeFiles/doubly_linked_list.dir/doubly_linked_list.cpp.o -o doubly_linked_list

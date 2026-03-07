@@ -1,0 +1,3 @@
+/Users/sebastien/myProjects/cpp-algorithms-data-structures/stack/build/CMakeFiles/stack.dir
+/Users/sebastien/myProjects/cpp-algorithms-data-structures/stack/build/CMakeFiles/edit_cache.dir
+/Users/sebastien/myProjects/cpp-algorithms-data-structures/stack/build/CMakeFiles/rebuild_cache.dir
