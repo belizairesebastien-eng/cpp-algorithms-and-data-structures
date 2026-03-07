@@ -1,6 +1,6 @@
 #include <iostream>
 #include <unordered_map>
-
+//Frequeny Counter
 std::unordered_map<char, int> FrequencyCounter(std::string words){
     std::unordered_map<char, int> map;
     for(char c: words){
@@ -27,7 +27,7 @@ std::unordered_map<char, int> FrequencyCounter(std::string words){
     std::cout << std::endl;
     return map;
 }
-
+//First non repeating charcahter
 void First_non_reapeting_Char(std::string words){
     auto map = FrequencyCounter(words);
     for(char cha: words){
@@ -40,7 +40,7 @@ void First_non_reapeting_Char(std::string words){
     std::cout << "We were not able to find non_repeating char";
 }
 
-
+//anagram checker
 bool AnagramChecker(std::string words, std::string owords){
     auto map = FrequencyCounter(words);
     auto map2 = FrequencyCounter(owords);
